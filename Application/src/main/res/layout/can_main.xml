@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Android AVN Project
+/*
+ * Copyright 2017 The Android AVN Project
+ *
+ *      Korea Electronics Technology Institute
+ *
+ *      http://keti.re.kr/
+ *
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_bg2_2"
+    android:weightSum="1"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:elevation="5dp"
+        android:onClick="onClickStart"
+        android:text="START"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="139dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.55"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/btnBreak"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:onClick="btnBreak"
+            android:src="@drawable/break_btn_off" />
+
+        <ImageButton
+            android:id="@+id/btnPower"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:onClick="btnPower"
+            android:src="@drawable/power_btn_off" />
+
+        <ImageButton
+            android:id="@+id/btnLight"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:onClick="btnLight"
+            android:src="@drawable/light_btn_off" />
+
+        <ImageButton
+            android:id="@+id/btnAcc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:onClick="btnAcc"
+            android:src="@drawable/acc_btn_off" />
+
+        <ImageButton
+            android:id="@+id/btnTire"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:onClick="btnTire"
+            android:src="@drawable/tire_btn_off" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="562dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.35">
+
+        <ImageView
+            android:id="@+id/all_ecu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/can_all_ecu_img_p"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keti.gto.android.bluetoothlegatt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="13" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@drawable/car_logo"
+        android:label="keti_AVN_2"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.ble_folder.DeviceScanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="KETI AVN_2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.ble_folder.DeviceControlActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="keti.gto.android.bluetoothlegatt.ble_folder.BluetoothLeService"
+            android:enabled="true" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+        <uses-sdk
+            android:minSdkVersion="18"
+            android:targetSdkVersion="25" />
+
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.map_folder.map_main_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.ble_folder.can_main_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.music_folder.music_main_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.music_folder.music_play1_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.music_folder.music_play2_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.music_folder.music_play3_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.smartKey_folder.smartKey_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="keti.gto.android.bluetoothlegatt.bio_folder.bio_activity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

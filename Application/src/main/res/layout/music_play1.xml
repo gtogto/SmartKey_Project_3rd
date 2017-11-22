@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_bg2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.27"
+        android:background="@drawable/default_bg2">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/seekBar1"
+            android:layout_alignTop="@+id/map_activity"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="21dp"
+            android:text="Title : SIGNAL"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp"></TextView>
+
+        <TextView
+            android:id="@+id/Artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/title"
+            android:layout_below="@+id/title"
+            android:text="Artist : Twice"
+            android:textSize="20sp"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/keti"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/Artist"
+            android:layout_toEndOf="@+id/map_activity" />
+
+        <keti.gto.android.bluetoothlegatt.map_folder.map_activity
+            android:id="@+id/map_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/twice" />
+
+        <ImageView
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/play_icon" />
+
+        <ImageView
+            android:id="@+id/play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:onClick="onClickPlay"
+            android:src="@drawable/s_play_icon"
+            android:layout_above="@+id/seekBar1"
+            android:layout_toEndOf="@+id/map_activity"
+            android:layout_marginBottom="32dp" />
+
+        <ImageView
+            android:id="@+id/pause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/play2"
+            android:layout_toEndOf="@+id/play2"
+            android:onClick="onClickPause"
+            android:src="@drawable/s_pause_icon" />
+
+        <ImageView
+            android:id="@+id/stop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pause2"
+            android:layout_toEndOf="@+id/pause2"
+            android:onClick="onClickStop"
+            android:src="@drawable/s_stop_icon" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/map_activity"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

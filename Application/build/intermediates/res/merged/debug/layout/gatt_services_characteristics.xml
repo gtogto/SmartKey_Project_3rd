@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Android AVN Project
+/*
+ * Copyright 2017 The Android AVN Project
+ *
+ *      Korea Electronics Technology Institute
+ *
+ *      http://keti.re.kr/
+ *
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="@drawable/default_bg2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/linearLayout33">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_device_address"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/device_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_state"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/connection_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disconnected"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/setting_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/ManboUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uMS"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/PPGUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uPS"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/SleepUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uSS"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/PPGBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uPPG"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/BaroBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uBARO"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Setting_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/ExerciseStartBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eSTART"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/ExerciseStopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eSTOP"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/ExerciseSyncBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eSYNC"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/ExerciseUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eUPDATE"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Setting_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/ConnectionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sCON"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/RTCBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sRTC"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/UserProfileBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sPRO"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/LanguageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sLAN"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/UnitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sUNIT"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Setting_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/VersionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sVER"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/UserPPGBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sUPPG"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/SleepTimeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sSTIME"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/PPGIntervalBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sPITV"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/ExerciseDisplayBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sEDI"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Setting_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/CallBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/CallAcceptBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACALL"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/SMSBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/GoalBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOAL"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/AppNotiBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APP"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_data"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:id="@+id/sd_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/send_data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:focusableInTouchMode="true"
+                android:textSize="15dp" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <!--    //first LinearLayout -> ECU Info     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextClock
+            android:id="@+id/textClock4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:layout_marginTop="20dip"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="350dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bt_small_icon" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/none_gesture_icon" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:src="@drawable/keti" />
+
+    </LinearLayout>
+
+
+    <!--    //second LinearLayout -> button Info     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="5dip"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="170dip"
+            android:layout_height="180dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="15dp"
+            android:onClick="onClickMap"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:theme="@color/colorBlue"
+            android:src="@drawable/map_icon" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="170dip"
+            android:layout_height="180dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMusic"
+            android:src="@drawable/music_icon" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="170dip"
+            android:layout_height="180dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickCAN"
+            android:src="@drawable/car_info_icon" />
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="170dip"
+            android:layout_height="180dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:onClick="onClickKey"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/smart_key_icon" />
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="170dip"
+            android:layout_height="180dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickBio"
+            android:src="@drawable/helth_icon" />
+
+    </LinearLayout>
+
+
+    <!--    //third LinearLayout -> button txt Info     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="35dip"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/menu1"
+            android:layout_width="154dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dip"
+            android:onClick="onClickMap"
+            android:src="@drawable/map_btn" />
+
+        <ImageButton
+            android:id="@+id/menu2"
+            android:layout_width="154dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dip"
+            android:onClick="onClickMusic"
+            android:src="@drawable/music_btn" />
+
+        <ImageButton
+            android:id="@+id/menu3"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="0.07"
+            android:onClick="onClickCAN"
+            android:src="@drawable/vehicle_btn" />
+
+        <ImageButton
+            android:id="@+id/menu4"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dip"
+            android:onClick="onClickKey"
+            android:src="@drawable/key_btn" />
+
+        <ImageButton
+            android:id="@+id/menu5"
+            android:layout_width="154dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dip"
+            android:onClick="onClickBio"
+            android:src="@drawable/bio_btn" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/case1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout11"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp"
+        android:text="CASE 1"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

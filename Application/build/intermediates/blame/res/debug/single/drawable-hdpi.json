@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\key_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\key_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_stop_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\s_stop_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\helth_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\helth_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bio_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bio_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\none_gesture_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\none_gesture_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_play_txt.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\music_play_txt.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gesture_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\gesture_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\play_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\err_can_break_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\err_can_break_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\open_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\open_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\play_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\exit_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\close_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\close_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\basic_mode.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\basic_mode.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_acc_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_acc_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\smart_key_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\smart_key_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\err_can_power_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\err_can_power_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\err_can_tire_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\err_can_tire_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\map_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\map_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acc_btn_off.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\acc_btn_off.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car_logo.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\car_logo.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\linie_albastra_v.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\linie_albastra_v.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\vehicle_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\vehicle_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_play_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\s_play_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bt_small_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bt_small_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\err_can_light_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\err_can_light_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_power_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_power_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\map_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\map_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tired_mode.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\tired_mode.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\closing_txt.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\closing_txt.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_tire_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_tire_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\normal_mode.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\normal_mode.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\circle_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\circle_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\stop_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sleep_mode.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\sleep_mode.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car_info_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\car_info_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sleepping.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\sleepping.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\driver_status_txt.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\driver_status_txt.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_ground.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bg_ground.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bwjsn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bwjsn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_btn_off.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\power_btn_off.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\break_btn_off.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\break_btn_off.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gesture_step_2.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\gesture_step_2.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\apink.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\apink.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_light_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_light_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ioi.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\ioi.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\music_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_ground_1.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bg_ground_1.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gini_gray_bg.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\gini_gray_bg.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tire_btn_off.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\tire_btn_off.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\warning.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\warning.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\keti.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\keti.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_all_ecu_img_p.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_all_ecu_img_p.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wjsn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\wjsn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\door_closing.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\door_closing.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tired_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\tired_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\white_bg.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\white_bg.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gesture_step_3.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\gesture_step_3.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\err_can_acc_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\err_can_acc_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\pause_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_break_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_break_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\keti_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\keti_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\door_opening.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\door_opening.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bio_bg.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\bio_bg.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\map_bg.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\map_bg.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\light_btn_off.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\light_btn_off.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_logo.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\app_logo.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\pause_btn.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_pause_icon.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\s_pause_icon.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\linie_albastra.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\linie_albastra.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_all_ecu_img.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_all_ecu_img.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\door_state.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\door_state.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\door_status_txt.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\door_status_txt.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\can_bg.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\can_bg.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\opening_txt.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\opening_txt.png"
+    },
+    {
+        "merged": "D:\\Android_source\\smartKeyProject-gto\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_btn.png",
+        "source": "D:\\Android_source\\smartKeyProject-gto\\Application\\src\\main\\res\\drawable-hdpi\\music_btn.png"
+    }
+]
