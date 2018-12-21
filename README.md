@@ -16,6 +16,8 @@ Screenshots
 
 <img src="https://user-images.githubusercontent.com/30851459/50324779-4a003580-0524-11e9-8a5d-9cd0cc6b120c.PNG"/> 
 
+<img src="https://user-images.githubusercontent.com/30851459/50324840-9ba8c000-0524-11e9-81d3-f8a28ff9deb5.PNG"/> 
+
 Getting Started
 ---------------
 
